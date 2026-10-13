@@ -1,0 +1,27 @@
+img {
+    display: flex;
+    width: 90%;
+    justify-self: center;
+}
+
+article a {
+    justify-self: center;
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+article {
+    justify-content: center;
+}
+
+h1 {
+    
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
