@@ -1,7 +1,12 @@
 img {
     display: flex;
-    width: 90%;
+    width: 50%;
     justify-self: center;
+}
+
+body {
+    background-size: 100%;
+    font-family: dmsa;
 }
 
 article a {
@@ -24,4 +29,12 @@ section {
     align-items: center;
     justify-content: center;
     justify-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(150, 106, 68);
+    opacity: 75%;
+    margin: 0;
 }
