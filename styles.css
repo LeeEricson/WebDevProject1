@@ -1,40 +1,18 @@
-img {
-    display: flex;
-    width: 50%;
-    justify-self: center;
+* {
+    background-color: red;
 }
 
-body {
-    background-size: 100%;
-    font-family: dmsa;
-}
-
-article a {
-    justify-self: center;
-    text-decoration: none;
-    color: black;
-    align-self: center;
-}
-
-article {
-    justify-content: center;
-}
-
-h1 {
-    
-}
-
-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-}
-
-nav {
+.header_container {
     display: flex;
     flex-direction: row;
-    background-color: rgb(150, 106, 68);
-    opacity: 75%;
-    margin: 0;
+}
+
+.header_container div {
+    background-color: blue;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
 }
